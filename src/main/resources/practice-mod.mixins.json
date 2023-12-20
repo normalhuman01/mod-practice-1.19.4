@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "net.practice.mod.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ModEntityDataSaver",
+		"PracticeModMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
